@@ -1,3 +1,49 @@
 @charset "UTF-8";
 @import "compass";
 @import "_topbar.scss";
+
+@import url("//fonts.googleapis.com/css?family=Hammersmith+One");
+@import url("//fonts.googleapis.com/css?family=Exo+2:300");
+
+$font: "Exo 2","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+
+h1,h2,h3,h4,h5,h6, body, .label, .button {
+  font-family: $font;
+}
+
+h1 {
+  border-bottom: 1px solid #eee;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+#app {
+  display: none;
+}
+
+#libs {
+  .label {
+    cursor: pointer;
+    font-size: 100%;
+    line-height: 1.2;
+    margin-right: 10px;
+  }
+}
+
+#code {
+  overflow-x: scroll;
+}
+
+#customLibs {
+  > div:first-child {
+    margin-top: 20px;
+  }
+  .postfix {
+    background-color: #F04124;
+    color: white;
+    cursor: pointer;
+    .fa {
+      margin-left: 2px;
+    }
+  }
+}
