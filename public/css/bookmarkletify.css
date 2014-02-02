@@ -1,7 +1,0 @@
-.main article { width: inherit; }
-
-.header-container h1 i { font-size: 150%; line-height: 0.5; vertical-align: middle; color: #e44d26; text-shadow: 0 0 2px rgba(255, 255, 255, 0.9); }
-.header-container a:hover { text-decoration: none; text-shadow: 0 0 3px rgba(0, 0, 0, 0.9); }
-
-.footer-container a { color: white; text-decoration: none; }
-.footer-container a:hover { text-decoration: none; text-shadow: 0 0 3px rgba(0, 0, 0, 0.9); }

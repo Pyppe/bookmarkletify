@@ -1,0 +1,4 @@
+#topbar { background-color: #F16529; }
+#topbar ul li > a { background-color: #F16529; }
+#topbar ul li > a:focus, #topbar ul li > a:hover { background-color: #E44D26; }
+#topbar .fa { font-size: 150%; vertical-align: middle; }

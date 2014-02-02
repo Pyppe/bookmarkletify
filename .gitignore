@@ -1,3 +1,4 @@
-bookmarkletify.iml
-.sass-cache/
+/node_modules/
+/.sass-cache/
+/dist/
 
